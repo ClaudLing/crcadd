@@ -18,7 +18,7 @@ OBJS = $(patsubst %.c, %.o, $(SRCS))
 TARGET = $(addsuffix .exe, $(addprefix exe/$(PLATFORM)/, $(basename $(notdir $(wildcard main/*.c)))))  
 
 
-.PHONY: all clean  
+.PHONY: all clean 
   
 all: $(TARGET)
   
